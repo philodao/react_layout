@@ -1,0 +1,21 @@
+.sidebar-wrapper {
+    width: 250px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	border-right: 1px solid var(--bs-border-color);
+	z-index: 11;
+	box-shadow: 0 .3rem .8rem rgba(0, 0, 0, .12);
+	transition: all .2s ease-out;
+}
+
+.sidebar-wrapper .simplebar-wrapper {
+    overflow: hidden;
+    width: inherit;
+    height: inherit;
+    max-width: inherit;
+    max-height: inherit;
+}
