@@ -4,9 +4,9 @@ function DashBoard() {
 
     return (
         <BrandLayout>
-        Doing
+            <div></div>
         </BrandLayout>
-    )
+    );
 }
 
 export default DashBoard

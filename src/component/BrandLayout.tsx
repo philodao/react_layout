@@ -3,7 +3,11 @@ import '../_assets/css/reset.css'
 import '../_assets/css/common.css'
 import '../_assets/css/brand.css'
 
-function BrandLayout(props){
+export interface BrandLayoutProps {
+    children: React.ReactElement
+}
+
+export function BrandLayout(props: BrandLayoutProps){
     return (
         <>
             <div className="wrapper">

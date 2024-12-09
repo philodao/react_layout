@@ -121,6 +121,3 @@ a:focus, button:focus{
 
 .pull-left { float:left; }
 .pull-right { float:right; }
-
-.row{ *zoom:1; }
-.row:after{clear:both; display:block; content:"";}
